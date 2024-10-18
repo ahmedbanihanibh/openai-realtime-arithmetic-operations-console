@@ -58,7 +58,7 @@ It should be available via `localhost:3000`.
    1. [WavStreamPlayer quickstart](#wavstreamplayer-quickstart)
 1. [Acknowledgements](#acknowledgements)
 1. [Learn More](#learn-more)
-1. [Deploy](#deploy)
+1. [Deploy on Vercel](#deploy)
 
 
 # Using the console
