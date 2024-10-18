@@ -8,6 +8,10 @@ The Realtime Arithmetic Console is a Next.js app intended as an inspector and in
 
 <img src="/readme/dark.png" width="800" />
 
+<img src="/readme/relay-server.png" width="800" />
+
+
+
 ## Starting the Console
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
