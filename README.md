@@ -99,7 +99,7 @@ OPENAI_API_KEY=YOUR_API_KEY
 NEXT_APP_LOCAL_RELAY_SERVER_URL=http://localhost:8081
 ```
 
-You will need to restart both your React app and relay server for the `.env.` changes
+You will need to restart both your Next.JS app and relay server for the `.env.` changes
 to take effect. The local server URL is loaded via [`ConsolePage.tsx`](/src/app/page.tsx).
 To stop using the relay server at any time, simply delete the environment
 variable or set it to empty string.
@@ -110,13 +110,13 @@ variable or set it to empty string.
  * and run custom logic on the server
  *
  * Set the local relay server address to:
- * REACT_APP_LOCAL_RELAY_SERVER_URL=http://localhost:8081
+ * NEXT_APP_LOCAL_RELAY_SERVER_URL=http://localhost:8081
  *
  * This will also require you to set OPENAI_API_KEY= in a `.env` file
  * You can run it with `npm run relay`, in parallel with `npm start`
  */
 const LOCAL_RELAY_SERVER_URL: string =
-  process.env.REACT_APP_LOCAL_RELAY_SERVER_URL || '';
+  process.env.NEXT_APP_LOCAL_RELAY_SERVER_URL || '';
 ```
 
 This server is **only a simple message relay**, but it can be extended to:
